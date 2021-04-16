@@ -275,6 +275,12 @@ body {
         width: 100%;
     }
 
+    .about .about-row-first h2 {
+        width: 100%;
+    }
+
+
+
     .about .about-row-second {
         display: flex;
         flex-direction: column-reverse;
@@ -305,10 +311,6 @@ body {
     }
     .first-screen-animation .text p {
         font-size: 18px;
-    }
-
-    .about .about-row-first h2 {
-        width: 100%;
     }
 
 }
