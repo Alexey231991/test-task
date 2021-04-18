@@ -79,6 +79,23 @@ body {
     overflow: hidden;
 }
 
+.first-screen .header .burger {
+    display: none;
+    color: black;
+    width: 20px;
+    height: 40px;
+    padding-top: 40px;
+    
+}
+
+.first-screen .header .burger .line {
+    background-color: black;
+    width:30px;
+    height:4px;
+    margin-top: 6px;
+    
+}
+
 .first-screen-animation {
     position: relative;
     max-width: 1024px;
@@ -232,6 +249,14 @@ body {
 
 @media (max-width: 768px) {
 
+    .first-screen .header .burger {
+        display: block;
+    }
+
+    .first-screen .header .item {
+        display: none;
+    }
+    
     .header-secondary .burger {
         display: block;
     }
@@ -278,8 +303,6 @@ body {
     .about .about-row-first h2 {
         width: 100%;
     }
-
-
 
     .about .about-row-second {
         display: flex;
